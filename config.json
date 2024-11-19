@@ -1,0 +1,17 @@
+{
+  "admins": [
+    { "name": "Arthur", "role": "Président" },
+    { "name": "Marie", "role": "VP" },
+    { "name": "Bastien", "role": "Tréso" },
+    { "name": "Zeinabou", "role": "Secrétaire" },
+    { "name": "Kyllian", "role": "VP" },
+    { "name": "Farah", "role": "Polyvalence" },
+    { "name": "Adi", "role": "Communication" },
+    { "name": "Nadjla", "role": "Communication" },
+    { "name": "Alex", "role": "Polyvalence" },
+    { "name": "Rayane", "role": "Partenariat" },
+    { "name": "Amine", "role": "Polyvalence" },
+    { "name": "Mouad", "role": "Sport" }
+  ],
+  "appName": "BMG"
+}
