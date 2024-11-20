@@ -26,13 +26,10 @@ class _AdminWheelViewState extends State<AdminWheelView> {
   Future<void> _loadAdmins() async {
     try {
       final admins = ConfigUtils.admins;
-
-      // Load the saved admin from SharedPreferences.
       final savedAdminName = await _getSavedAdminName();
       AdminModel? defaultAdmin;
 
       if (savedAdminName != null) {
-        // Find the matching admin from the saved name.
         defaultAdmin = admins.firstWhere(
           (admin) => admin.name == savedAdminName,
           orElse: () => admins.first,
@@ -123,7 +120,7 @@ class _AdminWheelViewState extends State<AdminWheelView> {
           width: 140,
           child: Text(
             _selectedAdmin?.name ?? '',
-            style: const TextStyle(fontSize: 14, color: Colors.black),
+            style: const TextStyle(fontSize: 18, color: Colors.black),
           ),
         ),
         menuItemStyleData: const MenuItemStyleData(
