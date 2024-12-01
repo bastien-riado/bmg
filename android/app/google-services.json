@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "778490720663",
+    "project_id": "bmg2024-3f275",
+    "storage_bucket": "bmg2024-3f275.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778490720663:android:3a60eb865aa9538f2694d2",
+        "android_client_info": {
+          "package_name": "com.treso.bmg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaMqcmXu2-imYqYuucNWZVpdbhYF6deSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
